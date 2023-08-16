@@ -43,6 +43,16 @@ Uma permissão é uma regra [IAM](https://docs.aws.amazon.com/IAM/latest/UserGui
 
 MFA(Autenticação Multifator) é uma forma complementar de autenticação que fortalece o perímetro de segurança da tua conta afastando eventuais invasores que, de alguma forma, tenham descoberto a senha da sua conta. É altamente recomendado que todos os acessos na AWS estejam coberto por MFA.
 
+Dispositivos MFA:
+Virtual MFA device (Google Authenticator, Authy)
+- Suporte para vários tokens em um único dispositivo.
+
+Chave de segurança - Autenticação de 2 fatores
+YubiKey - Dispositivo físico
+
+Hardware key
+Pessoal e governamental(US)
+
 ## AWS CloudShell
 
 AWS **Cloudshell** é uma forma de acessar o terminal da instância pelo portal da AWS de forma já pré autenticada sem necessidade de selecionar a instância.
